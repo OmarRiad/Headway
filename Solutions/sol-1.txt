@@ -1,0 +1,11 @@
+mkdir devops_project
+mkdir -p devops_project/{scripts,bin/tools,logs}
+touch devops_project/scripts/deploy.sh
+echo '#!/bin/bash' > devops_project/scripts/deploy.sh
+du -h ~/devops_project
+ls -lR ~/devops_project
+vim devops_project/scripts/deploy.sh 
+sudo chmod 700 devops_project/scripts/deploy.sh
+./devops_project/scripts/deploy.sh 
+cat devops_project/logs/tree.txt 
+tar -czf ~/devops_project.tar.gz -C ~ devops_project

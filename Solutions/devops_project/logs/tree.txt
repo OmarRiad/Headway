@@ -1,0 +1,25 @@
+8.0K	/home/omar/devops_project/scripts
+8.0K	/home/omar/devops_project/logs
+4.0K	/home/omar/devops_project/bin/tools
+8.0K	/home/omar/devops_project/bin
+28K	/home/omar/devops_project
+/home/omar/devops_project:
+total 12
+drwxr-xr-x 3 omar omar 4096 Oct  5 22:00 bin
+drwxr-xr-x 2 omar omar 4096 Oct  5 22:11 logs
+drwxr-xr-x 2 omar omar 4096 Oct  5 22:09 scripts
+
+/home/omar/devops_project/bin:
+total 4
+drwxr-xr-x 2 omar omar 4096 Oct  5 22:00 tools
+
+/home/omar/devops_project/bin/tools:
+total 0
+
+/home/omar/devops_project/logs:
+total 4
+-rw-r--r-- 1 omar omar 181 Oct  5 22:11 tree.txt
+
+/home/omar/devops_project/scripts:
+total 4
+-rwx------ 1 omar omar 126 Oct  5 22:09 deploy.sh
