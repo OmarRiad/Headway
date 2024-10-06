@@ -1,0 +1,8 @@
+  135  sudo groupadd devops
+  136  sudo useradd -m -G devops devops_user
+  137  sudo passwd devops_user
+  138  sudo chage -d 0 devops_user
+  139  sudo visudo
+  140  sudo useradd -m -G devops intern_user
+  141  sudo passwd intern_user
+  142  getent group devops
