@@ -1,0 +1,11 @@
+ifconfig
+sudo vim /etc/resolv.conf
+add to file:
+  nameserver 1.1.1.1
+
+sudo ufw allow http
+sudo ufw allow https
+sudo ufw allow ssh
+sudo ufw default deny incoming
+sudo ufw enable
+sudo ufw status

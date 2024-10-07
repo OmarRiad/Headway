@@ -1,0 +1,10 @@
+sudo apt install -y nginx
+sudo systemctl start nginx
+sudo systemctl status nginx
+sudo systemctl enable nginx
+sudo vim /lib/systemd/system/nginx.service
+add to file:
+  [Service]
+  ExecStartPre=/bin/bash -c 'echo "Nginx service started at: $(date)"'
+cat /var/log/nginx/access.log | grep ' 200 '
+
