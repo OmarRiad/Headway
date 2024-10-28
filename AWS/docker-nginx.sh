@@ -6,3 +6,4 @@ sudo usermod -aG docker $USER
 sudo amazon-linux-extras install nginx1 -y
 sudo systemctl start nginx
 sudo systemctl enable nginx
+curl http://13.36.244.178
